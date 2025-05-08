@@ -1,0 +1,78 @@
+
+.landingPage {
+    display: flex;
+    height: calc(100vh - 96px);
+    padding: 4rem 8%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.landingPage .landingPage-content {
+    color: var(--cor-branco);
+    max-width: 60%;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+}
+
+.landingPage-content h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    line-height: 1.1;
+}
+
+.landingPage-content h2 {
+    font-size: 2.7rem;
+    margin-bottom: 1.7rem;
+}
+
+.landingPage-content a {
+    padding: 0.6rem 1.6rem;
+    width: fit-content;
+    font-size: 1.5rem;
+    border-radius: 0 5px 0 5px;
+    background: linear-gradient(to right, var(--cor-amarelo), #a98100);
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+    position: relative;
+    isolation: isolate;
+    z-index: 2;
+}
+
+
+/* .landingPage-content a::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(to right, var(--cor-amarelo), var(--cor-amarelo-escuro));
+    transition: all 0.3s ease;
+    border-radius: 0 5px 0 5px;
+}
+
+.landingPage-content a:hover::before {
+    width: 0;
+} */
+
+.landingPage-content a:hover {
+    border-radius: 5px 0 5px 0;
+}
+
+
+.landingPage-content span {
+    color: var(--cor-amarelo-escuro);
+}
+
+.landingPage-imgCtn {
+    max-width: 50%;
+}
+
+.landingPage-imgCtn img {
+    max-width: 100%;
+}
